@@ -1,0 +1,10 @@
+idVisite, idRendezVous, idFacture, idOrdonnance, dateVisite,problemeVisite
+3,NULL,NULL,3,"05/03/17","Hypertension"
+4,NULL,NULL,2,"08/03/17","Surpoids et obésit"
+5,NULL,NULL,9,"10/03/17","Syndrome métabolique"
+6,NULL,NULL,8,"12/03/17","Maux de téte et migraine"
+7,NULL,NULL,4,"15/03/17","Problèmes d'audition"
+8,NULL,NULL,5,"18/03/17","Hygiène intime"
+9,NULL,NULL,6,"20/03/17","Hypertrophie bénigne de la prostate"
+10,NULL,NULL,10,"24/03/17","Mal de gorge"
+11,NULL,NULL,1,"03/03/17","Diabète"

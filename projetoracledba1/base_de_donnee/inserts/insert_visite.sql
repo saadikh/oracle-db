@@ -1,0 +1,11 @@
+alter session set nls_date_format = 'YYYY-MM-DD HH24:MI:SS';
+INSERT INTO "Visite" ("idVisite","idRendezVous","idFacture","idOrdonnance","dateVisite","problemeVisite") VALUES (1,1,1,1,'10/23/15','euismod et, commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur');
+INSERT INTO "Visite" ("idVisite","idRendezVous","idFacture","idOrdonnance","dateVisite","problemeVisite") VALUES (2,2,2,2,'09/28/10','enim, gravida sit amet, dapibus id, blandit at, nisi. Cum');
+INSERT INTO "Visite" ("idVisite","idRendezVous","idFacture","idOrdonnance","dateVisite","problemeVisite") VALUES (3,3,3,3,'08/28/16','luctus, ipsum leo elementum sem, vitae aliquam eros turpis non');
+INSERT INTO "Visite" ("idVisite","idRendezVous","idFacture","idOrdonnance","dateVisite","problemeVisite") VALUES (4,4,4,4,'06/19/13','pharetra, felis eget varius ultrices, mauris ipsum porta elit, a');
+INSERT INTO "Visite" ("idVisite","idRendezVous","idFacture","idOrdonnance","dateVisite","problemeVisite") VALUES (5,5,5,5,'03/01/12','urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat');
+INSERT INTO "Visite" ("idVisite","idRendezVous","idFacture","idOrdonnance","dateVisite","problemeVisite") VALUES (6,6,6,6,'07/26/05','eget mollis lectus pede et risus. Quisque libero lacus, varius');
+INSERT INTO "Visite" ("idVisite","idRendezVous","idFacture","idOrdonnance","dateVisite","problemeVisite") VALUES (7,7,7,7,'10/24/02','Curabitur dictum. Phasellus in felis. Nulla tempor augue ac ipsum.');
+INSERT INTO "Visite" ("idVisite","idRendezVous","idFacture","idOrdonnance","dateVisite","problemeVisite") VALUES (8,8,8,8,'12/09/02','ac nulla. In tincidunt congue turpis. In condimentum. Donec at');
+INSERT INTO "Visite" ("idVisite","idRendezVous","idFacture","idOrdonnance","dateVisite","problemeVisite") VALUES (9,9,9,9,'05/16/06','mollis nec, cursus a, enim. Suspendisse aliquet, sem ut cursus');
+INSERT INTO "Visite" ("idVisite","idRendezVous","idFacture","idOrdonnance","dateVisite","problemeVisite") VALUES (10,10,10,10,'11/15/04','blandit. Nam nulla magna, malesuada vel, convallis in, cursus et,');

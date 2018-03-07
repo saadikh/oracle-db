@@ -1,0 +1,67 @@
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Jeu. Mai 4 22:10:37 2017
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Fichier de contrôle :   Control_tab_visite.txt
+Fichier de données :      Visites_03_2017.csv
+  Fichier des enregistrements refusés :     Visites_03_2017.bad
+  Fichier DISCARD :  aucune spécification
+
+ (Allouer tous les rebuts)
+
+Nombre à charger : ALL
+Nombre à sauter: 1
+Erreurs permises: 50
+Continuation :    aucune spécification
+Chemin utilisé:      Direct
+
+Table "Visite", chargé à partir de chaque enregistrement physique.
+Option d'insertion en vigueur pour cette table : APPEND
+option TRAILING NULLCOLS effective
+
+   Nom de colonne               Position   Long.  Séparat. Encadrem. Type de données
+------------------------------ ---------- ----- ---- ---- ---------------------
+"idVisite"                          FIRST     *   ,  O(") CHARACTER            
+"idRendezVous"                       NEXT     *   ,  O(") CHARACTER            
+    NULL (non renseigné) si "idRendezVous" = 0X4e554c4c(caractère 'NULL')
+"idFacture"                          NEXT     *   ,  O(") CHARACTER            
+    NULL (non renseigné) si "idFacture" = 0X4e554c4c(caractère 'NULL')
+"idOrdonnance"                       NEXT     *   ,  O(") CHARACTER            
+"dateVisite"                         NEXT     *   ,  O(") DATE DD/MM/YY        
+"problemeVisite"                     NEXT     *   ,  O(") CHARACTER            
+
+Enregistrement 2 : Rejeté - toutes les colonnes étaient nulles.
+Le ou les index suivants, dans la table "Visite", ont été traités :
+index SYSTEM.PK_VISITE rendu inutilisable pour la raison suivante :
+option SKIP_INDEX_MAINTENANCE obligatoire
+
+Table "Visite" :
+  Chargement réussi de 1 Ligne.
+  0 Lignes chargement impossible dû à des erreurs de données.
+  0 Lignes chargement impossible car échec de toutes les clauses WHEN.
+  1 Ligne chargement impossible car tous les champs étaient non renseignés.
+
+  Cache de dates :
+   Taille max. :       1000
+   Entrées :          1
+   Succès    :          0
+   Echecs  :          0
+
+Taille du tableau de variables non utilisée dans le chemin direct.
+Lignes de tableau de colonnes :    5000
+Octets de tampon de flux de données :  256000
+Octets de tampon de lecture : 1048576
+
+Nombre total d'enregistrements logiques ignorés :          1
+Nombre total d'enregistrements logiques lus :             2
+Nombre total d'enregistrements logiques rejetés :         0
+Nombre total d'enregistrements logiques mis au rebut :        1
+Nombre total de tampons de flux de données chargés par le thread principal de SQL*Loader :        1
+Nombre total de tampons de flux de données chargés par le thread de chargement de SQL*Loader :        0
+
+Le début de l'exécution a été effectué sur Jeu. Mai   04 22:10:37 2017
+La fin de l'exécution a été effectuée sur Jeu. Mai   04 22:10:40 2017
+
+Temps écoulé (ELAPSED) :     00:00:03.36
+Temps processeur (CPU) :    00:00:00.08

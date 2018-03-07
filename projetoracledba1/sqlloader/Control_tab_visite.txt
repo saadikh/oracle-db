@@ -1,0 +1,21 @@
+OPTIONS 
+	(
+		SKIP=1,
+		DIRECT=true,
+		SKIP_INDEX_MAINTENANCE=true
+	)
+LOAD DATA
+INFILE 'Visites_03_2017.csv'
+APPEND
+INTO TABLE "Visite" 
+		FIELDS TERMINATED BY ","
+		OPTIONALLY ENCLOSED BY '"' 
+		TRAILING NULLCOLS
+	(
+		"idVisite",
+		"idRendezVous" NULLIF "idRendezVous"='NULL',
+		"idFacture" NULLIF "idFacture"='NULL',
+		"idOrdonnance",
+		"dateVisite" DATE "DD/MM/YY",
+		"problemeVisite"
+	)
